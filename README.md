@@ -5,7 +5,4 @@
 <html>
   <head>
       <title> About COS10026</title>
-  </head>
-  <body>
-  </body>
-</html>
+  <p>I <em>love</em> writing clean code.</p> 
