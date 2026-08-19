@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Introduction to basic HTML elements">
+    <meta name="keywords" content="HTML, Doctype, Head, Body, Meta, Paragraph, Headings, Strong, Emphasis">
+    <meta name="author" content="Thanathep ">
+
+    <title>Cat Show Registration Page</title>
+</head>
+
+<body>
+
+    <h1> Cat Show Registration Page</h1>
+
+    <form>
+
+        <p>
+            <label for="owner">Owner's Name</label>
+            <input type="text" id="owner" name="owner">
+
+        </p>
+
+        <p>
+            <label for="Email">Email </label>
+            <input type="Text" id="Email" name="Email">
+        </p>
+
+        <fieldset>
+            <legend>Cat information Details</legend>
+
+            <p>
+                <label for="cat">Cat's Name</label>
+                <input type="text" id="cat" name="cat">
+
+            </p>
+
+            <p>
+                <label for="breed">Breed</label>
+
+                <select id="breed" name="breed">
+                    <option>British Shorthair</option>
+                    <option>Burmeese</option>
+                    <option>Manx</option>
+                    <option>Ragdoll</option>
+                    <option>Russian Blue</option>
+                    <option>Siamese</option>
+                    <option>Other</option>
+                </select>
+
+            </p>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob">
+
+
+            <fieldset>
+
+                <legend>Sex</legend>
+                <p>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="sex">
+                </p>
+
+                <p>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="sex">
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Competition Categories</legend>
+
+                <p>Select which categories your would like your cat entered </p>
+
+                <p>
+                    <label for="breed-category">Best of breed</label>
+                    <input type="checkbox" id="breed-category" name="categories[]" value="best-of-breed" checked>
+                </p>
+
+
+                <p>
+                    <label for="cutest">Cutest</label>
+                    <input type="checkbox" id="cutest" name="categories[]" value="cutest" checked>
+                </p>
+
+
+
+                <p>
+                    <label for="ugliest">Ughliest</label>
+                    <input type="checkbox" id="ugliest" name="categories[]" value="ugliest" checked>
+                </p>
+
+
+            </fieldset>
+
+            <p>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+            </p>
+
+        </fieldset>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset Form">
+
+
+    </form>
+</body>
+
+</html>
